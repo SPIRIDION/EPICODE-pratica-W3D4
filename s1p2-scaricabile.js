@@ -11,7 +11,19 @@ REGOLE
  Elenca e descrivi i principali datatype in JavaScript. Prova a spiegarli come se volessi farli comprendere a un bambino.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA 1
+in Javascript esistono vari tipi di datatype:
+_ string: sono composte da caratteri o numeri, delimitate da doppi o singoli apici, esempio: "ciao" oppure 'Jhon'.
+_ int: sono numeri interi, esempio: 1, 2, 3, 10, 198.
+_ bool: sono valori booleani che ammettono soltanto 2 opzioni: true e false, vengono utilizzarti per fare confronti
+tra variabili e altre cose.
+_ float: sono numeri decimali, esempio: 1.5, 45.9.
+_ undefinded: è un data type particolare il quale viene dato ad una variabile dichiarata ma non ancora
+assegnata
+_ array: composti da un insieme di uno o più elementi, i quali possono essere di vari tipi o essi stessi arrays, esempio [1, 2, 3]
+il loro indice parte da 0 quindi ad esempio il secondo elemento di un array composto da 4 elementi avrà indice pari a 1
+_ oggetti: composti da uno o più elementi caratterizzati dal fatto di essere coppie chiave valore, esempio {"nome":"Jhon", "età":30}
+*/
 
 /* ESERCIZIO 2
  Descrivi cos'è un oggetto in JavaScript, con parole tue.
