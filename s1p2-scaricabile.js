@@ -29,7 +29,12 @@ _ oggetti: composti da uno o più elementi caratterizzati dal fatto di essere co
  Descrivi cos'è un oggetto in JavaScript, con parole tue.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+Un oggetto è un tipo di data structure composto da uno o più elementi i quali sono coppie chiave-valore, 
+ad esempio: se abbiamo un oggetto tipo: let Persona = {"nome":"Giovanni", "età":22} eseguendo console.log(persona), 
+otterremmo come output tutte le istanze(elementi) facenti parte dell'oggetto Persona, invece eseguendo console.log(persona.nome), 
+il nostro output sarà solo "Giovanni", cioè il valore della chiave "nome."
+*/
 
 /* ESERCIZIO 3
  Scriti il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
