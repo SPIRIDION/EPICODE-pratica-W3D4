@@ -14,15 +14,15 @@ REGOLE
 /* RISPOSTA 1
 in Javascript esistono vari tipi di datatype:
 _ string: sono composte da caratteri o numeri, delimitate da doppi o singoli apici, esempio: "ciao" oppure 'Jhon'.
-_ int: sono numeri interi, esempio: 1, 2, 3, 10, 198.
+_ num: sono numeri interi, esempio: 1, 2, 3, 10, 198 o decimali, esempio: 9.5, 0.991.
 _ bool: sono valori booleani che ammettono soltanto 2 opzioni: true e false, vengono utilizzarti per fare confronti
 tra variabili e altre cose.
-_ float: sono numeri decimali, esempio: 1.5, 45.9.
 _ undefinded: è un data type particolare il quale viene dato ad una variabile dichiarata ma non ancora
 assegnata
 _ array: composti da un insieme di uno o più elementi, i quali possono essere di vari tipi o essi stessi arrays, esempio [1, 2, 3]
 il loro indice parte da 0 quindi ad esempio il secondo elemento di un array composto da 4 elementi avrà indice pari a 1
 _ oggetti: composti da uno o più elementi caratterizzati dal fatto di essere coppie chiave valore, esempio {"nome":"Jhon", "età":30}
+_ null: altro datatype, particolare utilizzato per "svuotare" una variabile del suo contenuto.
 */
 
 /* ESERCIZIO 2
@@ -52,19 +52,25 @@ console.log(somma)
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA 4 */
+
+let x = 12
 
 /* ESERCIZIO 5
  Crea una variable chiamata "name" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA 5 */
+
+let name = "Massimiliano"
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA 6 */
+
+console.log(4 - x)
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -73,4 +79,10 @@ console.log(somma)
  NON HAI BISOGNO DI UN BLOCCO IF/ELSE. E' sufficiente utilizzare console.log().
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* RISPOSTA 7 */
+
+let name1 = "john"
+let name2 = "John"
+
+console.log(name1 !== name2) // con output true significa che le 2 variabili sono diverse tra loro
+console.log(name1 === name2.toLowerCase()) // con output true significa che le 2 variabili sono uguali
